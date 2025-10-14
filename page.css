@@ -1,0 +1,163 @@
+.navigation{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+}
+
+.navigation ul{
+    list-style-type: none;
+    background-color: darkgray;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.navigation li{
+    flex: 1;
+    min-width: 0;
+}
+
+.navigation a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.navigation a:hover{
+    background-color: gray;
+}
+
+header{
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex: 1;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.boxleft{
+    flex: 0.5;
+    margin: 10px;
+    padding: 10px;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+.boxright{
+    flex: 0.5;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.boxbottom{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+footer a{
+   text-decoration: none; 
+   font-size: 20px;
+   
+}
+
+footer ul{
+    list-style-type: none;
+    text-align: right;
+    margin: 10px;
+}
+
+footer{
+    background-color: darkgray;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+footer a:hover{
+    color: yellow;
+}
+
+footer img{
+    width: 100px;
+}
+
+footer p{
+    text-align: center;
+}
+
+
+
+.warhammer{
+    margin-top: 30px;
+    display: flex;
+    flex: 1;
+    background-color:rgb(95, 121, 160);
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.warhammerlogo, .elden-ringlogo, .aotlogo{
+    flex: 0.5;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.warhammerlogo img, .elden-ringlogo img, .aotlogo img{
+    flex: 0.5;
+    width: 800px;
+    
+}
+
+.warhammerimg, .eldenringimg, .aotimg{
+    flex: 0.5;
+    display: inline-block;
+}
+
+.warhammerimg img, .dmcimg img, .aotimg img, .eldenringimg img{
+    flex: 0.5;
+    display: flex;
+    align-items: flex-start;
+    object-fit: cover;
+    margin: 0;
+    float: left;
+    width: 250px;
+    height: 400px;
+    margin: 5px;
+}
+
+.elden-ring{
+    
+    display: flex;
+    flex: 1;
+    background-color:rgb(131, 101, 63);
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.atak-tytanow{
+    
+    display: flex;
+    flex: 1;
+    background-color:rgb(37, 37, 36);
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
