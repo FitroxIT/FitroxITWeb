@@ -40,7 +40,7 @@ header{
     text-align: center;
 }
 
-.box{
+.box, .zaint{
     display: flex;
     flex: 1;
     margin-top: 30px;
@@ -159,5 +159,65 @@ footer p{
     background-color:rgb(37, 37, 36);
     width: 90%;
     margin: auto;
+    border-radius: 10px;
+}
+
+
+
+
+.zainttekst{
+    flex: 0.8;  
+}
+
+.zaintspis{
+    flex: 0.2;
+    
+}
+
+.zaintspis table{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    position: sticky;
+    top: 20px;
+}
+
+.zaintspis th{
+    font-size: 25px;
+    
+}
+
+.zaintspis a{
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+
+.zainttekst p{
+    margin-left: 20px;
+}
+
+.whzaint{
+    
+    background-color: rgb(134, 74, 79);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.muzykazaint{
+    background-color: rgb(79, 87, 90);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.programowaniezaint{
+    background-color: rgb(107, 148, 83);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.filmyzaint{
+    background-color: rgb(44, 84, 117);
+    padding: 10px;
     border-radius: 10px;
 }
