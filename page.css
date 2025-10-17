@@ -221,3 +221,14 @@ footer p{
     padding: 10px;
     border-radius: 10px;
 }
+
+.kontaktbox{
+    background-image: linear-gradient(darkgray, white, darkgray);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kontaktbox2{
+    padding: 10px;
+}   
